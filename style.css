@@ -1,0 +1,96 @@
+*{
+    padding: 2px;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos{
+    padding: 5px 0;
+    background-color: rgb(9, 105, 9);
+}
+
+.medsos ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+.container {
+    width: 80%;
+    height: 100;
+    margin: 0 auto;
+
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+    text-align: center;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 15px 15px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: rgb(9, 105, 9);
+    color: #fff;
+}
+.active{
+    background-color: rgb(9, 105, 9);
+    color: #fff;
+}
+.banner{
+    height: 40vh;
+    margin-top: 5%;
+    background-image: url(cafe\ 2.jpg);
+    background-size: cover;
+    width: 73%;
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+  
+}  
+.banner:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0%;
+    bottom: 0;
+    background-color: rgba(9, 105, 9, 0.616);
+}
+.banner h2{
+    color: rgb(14, 0, 0);
+    z-index: 1;
+    padding: 20px 15px;
+    border: 3px solid rgb(4, 61, 4);
+}
+section{
+    padding: 200px 180px;
+}
+.location{
+    margin-top: 5%;
+    background-color: rgba(9, 105, 9, 0.616);
+}
+.minuman{
+    background-color: rgba(9, 105, 9, 0.616);
+    margin-top: 5%;
+}
+.makanan{
+    background-color: rgba(9, 105, 9, 0.616);
+    margin-top: 5%;
+}
+.contact{
+    background-color: rgba(9, 105, 9, 0.616);
+    margin-top: 5%;
+}
